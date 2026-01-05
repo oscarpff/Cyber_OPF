@@ -1,7 +1,7 @@
 # Hugo
-public/
-resources/
-.hugo_build.lock
+cyber_repo/public/
+cyber_repo/resources/
+cyber_repo/.hugo_build.lock
 
 # OS Files
 .DS_Store
