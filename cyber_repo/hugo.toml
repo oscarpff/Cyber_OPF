@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://cyberopf.netlify.app/'
 defaultContentLanguage = 'es'
 theme = 'terminal'
 
