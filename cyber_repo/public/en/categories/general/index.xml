@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>General on Oscar - Blog</title>
+    <link>http://localhost:1313/en/categories/general/</link>
+    <description>Recent content in General on Oscar - Blog</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 05 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/categories/general/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Journey in Blue Team</title>
+      <link>http://localhost:1313/en/posts/hola-mundo/</link>
+      <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/hola-mundo/</guid>
+      <description>&lt;h2 id=&#34;-welcome-to-my-portfolio&#34;&gt;🛡️ Welcome to my Portfolio&lt;/h2&gt;&#xA;&lt;p&gt;This is my personal portfolio where I&amp;rsquo;ll document my journey specializing in &lt;strong&gt;Blue Team&lt;/strong&gt; and &lt;strong&gt;SOC operations&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;h3 id=&#34;why-blue-team&#34;&gt;Why Blue Team?&lt;/h3&gt;&#xA;&lt;p&gt;Proactive defense and threat detection fascinate me. I love the idea of:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;🔍 &lt;strong&gt;Threat Hunting&lt;/strong&gt;: Proactively searching for threats&lt;/li&gt;&#xA;&lt;li&gt;📊 &lt;strong&gt;Log Analysis&lt;/strong&gt;: Finding patterns and anomalies&lt;/li&gt;&#xA;&lt;li&gt;🚨 &lt;strong&gt;Incident Response&lt;/strong&gt;: Acting quickly during an attack&lt;/li&gt;&#xA;&lt;li&gt;🛠️ &lt;strong&gt;Automation&lt;/strong&gt;: Creating effective detections&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;what-will-you-find-here&#34;&gt;What will you find here?&lt;/h3&gt;&#xA;&lt;p&gt;In this blog I&amp;rsquo;ll share:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

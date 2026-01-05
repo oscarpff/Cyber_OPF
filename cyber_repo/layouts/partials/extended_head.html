@@ -1,0 +1,9 @@
+<!-- Custom CSS Override para forzar tema azul -->
+{{ $customCSS := resources.Get "css/custom.css" }}
+{{ $overrideCSS := resources.Get "css/override.css" }}
+{{ if $customCSS }}
+  <link rel="stylesheet" href="{{ $customCSS.RelPermalink }}" />
+{{ end }}
+{{ if $overrideCSS }}
+  <link rel="stylesheet" href="{{ $overrideCSS.RelPermalink }}" />
+{{ end }}

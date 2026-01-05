@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Oscar - Blog</title>
+    <link>http://localhost:1313/en/</link>
+    <description>Recent content on Oscar - Blog</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 05 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/en/about/</link>
+      <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/about/</guid>
+      <description>&lt;h2 id=&#34;-hello&#34;&gt;👋 Hello!&lt;/h2&gt;&#xA;&lt;p&gt;I&amp;rsquo;m &lt;strong&gt;Oscar&lt;/strong&gt;, a security analyst focused on &lt;strong&gt;Blue Team Operations&lt;/strong&gt;. My goal is to specialize in:&lt;/p&gt;&#xA;&lt;h3 id=&#34;-focus-areas&#34;&gt;🎯 Focus Areas&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;SOC Operations&lt;/strong&gt;: Monitoring, analysis and incident response&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Threat Hunting&lt;/strong&gt;: Proactive threat searching&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Digital Forensics&lt;/strong&gt;: Forensic analysis of compromised systems&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;SIEM &amp;amp; Detection Engineering&lt;/strong&gt;: Creating rules and correlations&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;-tools&#34;&gt;🛠️ Tools&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;SIEM&lt;/strong&gt;: Splunk, Elastic Stack, QRadar&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Network Analysis&lt;/strong&gt;: Wireshark, Zeek, Suricata&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Forensics&lt;/strong&gt;: Volatility, Autopsy, FTK Imager&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Threat Intel&lt;/strong&gt;: MITRE ATT&amp;amp;CK, OpenCTI, MISP&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;-continuous-learning&#34;&gt;📚 Continuous Learning&lt;/h3&gt;&#xA;&lt;p&gt;This portfolio documents my cybersecurity journey, sharing projects, labs and real case analysis.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My Journey in Blue Team</title>
+      <link>http://localhost:1313/en/posts/hola-mundo/</link>
+      <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/hola-mundo/</guid>
+      <description>&lt;h2 id=&#34;-welcome-to-my-portfolio&#34;&gt;🛡️ Welcome to my Portfolio&lt;/h2&gt;&#xA;&lt;p&gt;This is my personal portfolio where I&amp;rsquo;ll document my journey specializing in &lt;strong&gt;Blue Team&lt;/strong&gt; and &lt;strong&gt;SOC operations&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;h3 id=&#34;why-blue-team&#34;&gt;Why Blue Team?&lt;/h3&gt;&#xA;&lt;p&gt;Proactive defense and threat detection fascinate me. I love the idea of:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;🔍 &lt;strong&gt;Threat Hunting&lt;/strong&gt;: Proactively searching for threats&lt;/li&gt;&#xA;&lt;li&gt;📊 &lt;strong&gt;Log Analysis&lt;/strong&gt;: Finding patterns and anomalies&lt;/li&gt;&#xA;&lt;li&gt;🚨 &lt;strong&gt;Incident Response&lt;/strong&gt;: Acting quickly during an attack&lt;/li&gt;&#xA;&lt;li&gt;🛠️ &lt;strong&gt;Automation&lt;/strong&gt;: Creating effective detections&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;what-will-you-find-here&#34;&gt;What will you find here?&lt;/h3&gt;&#xA;&lt;p&gt;In this blog I&amp;rsquo;ll share:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,115 @@
+baseURL = 'http://localhost:1313/'
+defaultContentLanguage = 'es'
+theme = 'terminal'
+
+# Configuración multiidioma
+[languages]
+  [languages.es]
+    languageCode = 'es-ES'
+    languageName = 'Español'
+    title = 'Oscar - Blog'
+    weight = 1
+    
+    [languages.es.params]
+      themeColor = "blue"
+      logoText = "OSCAR_SOC >_ "
+      contentTypeName = "posts"
+      showMenuItems = 10
+      fullWidthTheme = true
+      centerTheme = true
+      showFullTextinRSS = true
+      mainSections = ["posts", "proyectos", "labs"]
+      showLanguageSelector = true
+      
+      [languages.es.params.author]
+        name = "Oscar"
+        bio = "SOC Analyst especializado en Blue Team Operations, Threat Hunting y Digital Forensics"
+      
+      [languages.es.params.terminal]
+        terminalPrompt = "blue-team@soc:~$ "
+        welcomeMessage = "[+] Iniciando entorno de análisis de seguridad..."
+    
+    [[languages.es.menu.main]]
+      name = "🏠 Inicio"
+      url = "/"
+      weight = 1
+    
+    [[languages.es.menu.main]]
+      name = "📝 Blog"
+      url = "/posts"
+      weight = 2
+    
+    [[languages.es.menu.main]]
+      name = "🛡️ Proyectos"
+      url = "/proyectos"
+      weight = 3
+    
+    [[languages.es.menu.main]]
+      name = "🔧 Labs"
+      url = "/labs"
+      weight = 4
+    
+    [[languages.es.menu.main]]
+      name = "💼 About"
+      url = "/about"
+      weight = 5
+    
+    [[languages.es.menu.main]]
+      name = "🐙 GitHub"
+      url = "https://github.com/tu-usuario"
+      weight = 6
+
+  [languages.en]
+    languageCode = 'en-US'
+    languageName = 'English'
+    title = 'Oscar - Blog'
+    weight = 2
+    
+    [languages.en.params]
+      themeColor = "blue"
+      logoText = "OSCAR_SOC >_ "
+      contentTypeName = "posts"
+      showMenuItems = 10
+      fullWidthTheme = true
+      centerTheme = true
+      showFullTextinRSS = true
+      mainSections = ["posts", "projects", "labs"]
+      showLanguageSelector = true
+      
+      [languages.en.params.author]
+        name = "Oscar"
+        bio = "SOC Analyst specialized in Blue Team Operations, Threat Hunting and Digital Forensics"
+      
+      [languages.en.params.terminal]
+        terminalPrompt = "blue-team@soc:~$ "
+        welcomeMessage = "[+] Starting security analysis environment..."
+    
+    [[languages.en.menu.main]]
+      name = "🏠 Home"
+      url = "/en/"
+      weight = 1
+    
+    [[languages.en.menu.main]]
+      name = "📝 Blog"
+      url = "/en/posts"
+      weight = 2
+    
+    [[languages.en.menu.main]]
+      name = "🛡️ Projects"
+      url = "/en/projects"
+      weight = 3
+    
+    [[languages.en.menu.main]]
+      name = "🔧 Labs"
+      url = "/en/labs"
+      weight = 4
+    
+    [[languages.en.menu.main]]
+      name = "💼 About"
+      url = "/en/about"
+      weight = 5
+    
+    [[languages.en.menu.main]]
+      name = "🐙 GitHub"
+      url = "https://github.com/tu-usuario"
+      weight = 6

@@ -1,0 +1,438 @@
+/* ========================================
+   OVERRIDE TOTAL - Blue Team Theme
+   Forzar azul en absolutamente todo
+   ======================================== */
+
+/* Variables globales - OVERRIDE COMPLETO */
+:root {
+    --background: #0d1117 !important;
+    --foreground: #c9d1d9 !important;
+    --accent: #58a6ff !important;  /* AZUL en lugar de naranja */
+    --accent-hover: #79c0ff !important;
+    --accent-dim: #1f6feb !important;
+    --border-color: #30363d !important;
+    --code-bg: #161b22 !important;
+    --font-size: 1rem !important;
+    --line-height: 1.7 !important;
+}
+
+/* Forzar tamaño de fuente consistente en todos los idiomas */
+html, body {
+    font-size: 16px !important;
+}
+
+body {
+    font-size: var(--font-size) !important;
+    line-height: var(--line-height) !important;
+}
+
+/* ==========================================
+   CONTENEDOR - Centrado y ancho completo
+   ========================================== */
+
+/* Forzar centrado del container principal */
+.container {
+    max-width: 1400px !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+    padding: 40px 60px !important;
+    border: none !important;
+    border-right: none !important;
+    box-sizing: border-box !important;
+}
+
+.container.full, .container.center {
+    border: none !important;
+    margin: 0 auto !important;
+    max-width: 1400px !important;
+    width: 100% !important;
+}
+
+/* Asegurar que el body siempre tenga el mismo ancho */
+body {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100% !important;
+    min-width: 100vw !important;
+}
+
+.wrapper {
+    width: 100% !important;
+    max-width: 1400px !important;
+    margin: 0 auto !important;
+}
+
+.content {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+}
+
+/* Headers y navegación con ancho fijo */
+.header, .navigation-menu {
+    width: 100% !important;
+    max-width: none !important;
+}
+
+/* Posts y artículos con ancho consistente */
+.posts, .post, article, main {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+/* ==========================================
+   HEADER Y LOGO - Eliminar naranja
+   ========================================== */
+
+.logo {
+    background: var(--accent) !important;
+    color: var(--background) !important;
+    font-weight: bold;
+    padding: 8px 15px !important;
+    font-size: 1.2rem !important;
+}
+
+.header__logo::after {
+    background: repeating-linear-gradient(90deg, var(--accent) 0%, var(--accent) 2px, transparent 0, transparent 10px) !important;
+}
+
+.header a {
+    color: var(--accent) !important;
+}
+
+/* ==========================================
+   NAVEGACIÓN - Más grande y evidente
+   ========================================== */
+
+.navigation-menu {
+    margin: 30px 0 !important;
+    font-size: 1.1rem !important;
+}
+
+.navigation-menu__inner > li {
+    margin-bottom: 15px !important;
+}
+
+.navigation-menu__inner > li:not(:last-of-type) {
+    margin-right: 30px !important;
+}
+
+.navigation-menu a {
+    color: var(--accent) !important;
+    font-size: 1.15rem !important;
+    font-weight: 600 !important;
+    padding: 8px 12px !important;
+    border: 2px solid transparent !important;
+    border-radius: 4px !important;
+    transition: all 0.2s ease !important;
+    text-decoration: none !important;
+}
+
+.navigation-menu a:hover {
+    background: rgba(88, 166, 255, 0.15) !important;
+    border-color: var(--accent) !important;
+    box-shadow: 0 0 15px rgba(88, 166, 255, 0.3) !important;
+    transform: translateY(-2px) !important;
+}
+
+/* Menu mobile */
+.menu__trigger {
+    color: var(--accent) !important;
+    border-color: var(--accent) !important;
+    font-size: 1.1rem !important;
+    padding: 8px 15px !important;
+}
+
+.menu__dropdown {
+    background: var(--background) !important;
+    border-color: var(--accent) !important;
+    box-shadow: 0 10px var(--background), -10px 10px var(--background), 10px 10px var(--background) !important;
+}
+
+/* ==========================================
+   LINKS - Todo azul
+   ========================================== */
+
+a {
+    color: var(--accent) !important;
+    text-decoration: none !important;
+    transition: all 0.3s ease !important;
+}
+
+a:hover {
+    color: var(--accent-hover) !important;
+    text-shadow: 0 0 8px rgba(121, 192, 255, 0.5) !important;
+}
+
+/* ==========================================
+   BOTONES - Azul
+   ========================================== */
+
+button, .button {
+    color: var(--accent) !important;
+    border-color: var(--accent) !important;
+    background: transparent !important;
+    padding: 8px 20px !important;
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+}
+
+button:hover, .button:hover {
+    background: rgba(88, 166, 255, 0.15) !important;
+    box-shadow: 0 0 15px rgba(88, 166, 255, 0.3) !important;
+}
+
+/* ==========================================
+   CONTENIDO - Sin comprimir
+   ========================================== */
+
+.post-content {
+    display: block !important;
+}
+
+.post {
+    margin-bottom: 50px !important;
+}
+
+.post-title {
+    font-size: 1.8rem !important;
+    margin-bottom: 10px !important;
+}
+
+.post-title a {
+    color: var(--foreground) !important;
+}
+
+.post-title a:hover {
+    color: var(--accent) !important;
+}
+
+/* ==========================================
+   CÓDIGO - Azul
+   ========================================== */
+
+pre {
+    background: var(--code-bg) !important;
+    border-left: 4px solid var(--accent) !important;
+    box-shadow: 0 2px 8px rgba(88, 166, 255, 0.1) !important;
+    padding: 15px !important;
+    border-radius: 6px !important;
+}
+
+code {
+    background: var(--code-bg) !important;
+    color: var(--accent) !important;
+}
+
+p code, li code {
+    background: var(--code-bg) !important;
+    color: var(--accent-hover) !important;
+    padding: 3px 8px !important;
+    border-radius: 4px !important;
+    border: 1px solid var(--border-color) !important;
+}
+
+/* ==========================================
+   HEADERS - Limpios, sin decoraciones
+   ========================================== */
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--foreground) !important;
+    border: none !important;
+}
+
+/* Eliminar flechitas y decoraciones */
+h1::before, h2::before, h3::before, 
+h4::before, h5::before, h6::before {
+    content: "" !important;
+    display: none !important;
+}
+
+/* Eliminar # de los enlaces de ancla */
+.heading-link, .anchor, h1 a, h2 a, h3 a, 
+h4 a, h5 a, h6 a {
+    display: none !important;
+}
+
+/* Si el heading completo es un link, mostrarlo sin decoración */
+h1 > a:only-child, h2 > a:only-child, h3 > a:only-child {
+    display: inline !important;
+    text-decoration: none !important;
+    color: inherit !important;
+}
+
+h1 > a:only-child::before, 
+h2 > a:only-child::before, 
+h3 > a:only-child::before {
+    content: "" !important;
+}
+
+/* ==========================================
+   TAGS Y CATEGORÍAS
+   ========================================== */
+
+.tags a, .categories a {
+    background: linear-gradient(135deg, var(--accent-dim) 0%, #0d419d 100%) !important;
+    color: white !important;
+    padding: 6px 14px !important;
+    border-radius: 12px !important;
+    font-size: 0.9em !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    box-shadow: 0 2px 4px rgba(88, 166, 255, 0.3) !important;
+}
+
+.tags a:hover, .categories a:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 4px 12px rgba(88, 166, 255, 0.5) !important;
+    text-shadow: none !important;
+}
+
+/* ==========================================
+   TABLAS
+   ========================================== */
+
+th {
+    background: var(--background) !important;
+    color: var(--accent) !important;
+    border-bottom: 2px solid var(--accent) !important;
+}
+
+td {
+    border-bottom: 1px solid var(--border-color) !important;
+}
+
+tr:hover {
+    background: rgba(88, 166, 255, 0.05) !important;
+}
+
+/* ==========================================
+   PAGINACIÓN
+   ========================================== */
+
+.pagination a {
+    color: var(--accent) !important;
+    border-color: var(--accent) !important;
+}
+
+.pagination a:hover {
+    background: rgba(88, 166, 255, 0.15) !important;
+}
+
+.pagination .active {
+    background: var(--accent-dim) !important;
+    color: white !important;
+}
+
+/* ==========================================
+   READ MORE / BOTONES DE ACCIÓN
+   ========================================== */
+
+.read-more a, .button, .btn {
+    display: inline-block !important;
+    color: var(--accent) !important;
+    border: 2px solid var(--accent) !important;
+    padding: 8px 20px !important;
+    border-radius: 4px !important;
+    font-weight: 600 !important;
+    margin-top: 15px !important;
+}
+
+.read-more a:hover {
+    background: rgba(88, 166, 255, 0.15) !important;
+    transform: translateY(-2px) !important;
+}
+
+/* ==========================================
+   FOOTER
+   ========================================== */
+
+footer {
+    border-top: 2px solid var(--border-color) !important;
+    padding-top: 20px !important;
+    margin-top: 50px !important;
+}
+
+footer a {
+    color: var(--accent) !important;
+}
+
+/* ==========================================
+   BLOCKQUOTES
+   ========================================== */
+
+blockquote {
+    border-left: 4px solid var(--accent) !important;
+    background: rgba(88, 166, 255, 0.05) !important;
+    padding: 16px 20px !important;
+}
+
+/* ==========================================
+   SELECCIÓN DE TEXTO
+   ========================================== */
+
+::selection {
+    background: rgba(88, 166, 255, 0.3) !important;
+    color: white !important;
+}
+
+/* ==========================================
+   LISTA DE POSTS - Sin comprimir
+   ========================================== */
+
+.posts .post-content {
+    display: block !important;
+    max-height: none !important;
+}
+
+.post-list .post {
+    border-bottom: 1px solid var(--border-color) !important;
+    padding-bottom: 40px !important;
+    margin-bottom: 40px !important;
+}
+
+/* ==========================================
+   ALERT BOXES (si las usas)
+   ========================================== */
+
+.alert-info {
+    background: rgba(88, 166, 255, 0.1) !important;
+    border-left: 4px solid var(--accent) !important;
+    color: var(--accent) !important;
+}
+
+/* ==========================================
+   MEJORAS VISUALES
+   ========================================== */
+
+/* Scroll suave */
+html {
+    scroll-behavior: smooth !important;
+}
+
+/* Espaciado más generoso */
+body {
+    line-height: 1.7 !important;
+}
+
+p {
+    margin: 1.2em 0 !important;
+}
+
+ul, ol {
+    margin: 1.2em 0 !important;
+    padding-left: 2em !important;
+}
+
+li {
+    margin: 0.5em 0 !important;
+}
+
+/* Headings con más espacio */
+h1, h2, h3 {
+    margin-top: 2em !important;
+    margin-bottom: 0.8em !important;
+    line-height: 1.3 !important;
+}

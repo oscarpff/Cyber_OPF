@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Oscar - Blog</title>
+    <link>http://localhost:1313/categories/</link>
+    <description>Recent content in Categories on Oscar - Blog</description>
+    <generator>Hugo</generator>
+    <language>es-ES</language>
+    <lastBuildDate>Mon, 05 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blue Team</title>
+      <link>http://localhost:1313/categories/blue-team/</link>
+      <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/blue-team/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Digital Forensics</title>
+      <link>http://localhost:1313/categories/digital-forensics/</link>
+      <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/digital-forensics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>General</title>
+      <link>http://localhost:1313/categories/general/</link>
+      <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/general/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Labs</title>
+      <link>http://localhost:1313/categories/labs/</link>
+      <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/labs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Proyectos</title>
+      <link>http://localhost:1313/categories/proyectos/</link>
+      <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/proyectos/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

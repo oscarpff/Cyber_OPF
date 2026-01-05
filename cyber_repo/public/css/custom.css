@@ -1,0 +1,245 @@
+/* ========================================
+   Custom Blue Team Styling - Override Theme Colors
+   ======================================== */
+
+/* Paleta de colores Blue Team personalizada */
+:root {
+    --background: #0d1117;
+    --foreground: #c9d1d9;
+    --accent: #58a6ff;  /* Azul principal - cambiado de naranja */
+    --accent-hover: #79c0ff;
+    --accent-dim: #1f6feb;
+    --border-color: #30363d;
+    --code-bg: #161b22;
+    --font-size: 1rem;
+    --line-height: 1.54em;
+    --radius: 6px;
+}
+
+/* Mejora visual del prompt terminal */
+.terminal-prompt {
+    color: #4a9eff;
+    font-weight: 600;
+    text-shadow: 0 0 5px rgba(74, 158, 255, 0.3);
+}
+
+/* Efecto de texto terminal */
+.terminal-text {
+    font-family: 'Courier New', monospace;
+    letter-spacing: 0.5px;
+}
+
+/* Destacar bloques de código con tema Blue Team */
+pre {
+    background: var(--code-bg) !important;
+    border-left: 3px solid var(--accent);
+    box-shadow: 0 2px 8px rgba(88, 166, 255, 0.1);
+    border-radius: var(--radius);
+}
+
+code {
+    background: var(--code-bg);
+    color: var(--accent);
+    padding: 2px 6px;
+    border-radius: 3px;
+}
+
+/* Mejora enlaces con tema azul */
+a {
+    color: var(--accent) !important;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: var(--accent-hover) !important;
+    text-shadow: 0 0 8px rgba(121, 192, 255, 0.5);
+}
+
+/* Botones con tema azul */
+button, .button {
+    color: var(--accent) !important;
+    border-color: var(--accent) !important;
+    background: transparent;
+    transition: all 0.15s linear;
+}
+
+button:hover, .button:hover {
+    background: rgba(88, 166, 255, 0.15) !important;
+    box-shadow: 0 0 15px rgba(88, 166, 255, 0.3);
+}
+
+/* Headers con estilo Blue Team */
+h1, h2, h3 {
+    color: var(--foreground);
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 8px;
+    margin-top: 24px;
+}
+
+h2::before {
+    content: "▸ ";
+    color: var(--accent);
+    font-weight: bold;
+}
+
+/* Logo/Header principal con color azul */
+.logo, header a {
+    color: var(--accent) !important;
+}
+
+.logo:hover {
+    color: var(--accent-hover) !important;
+}
+
+/* Badges y tags con estilo SOC */
+.tags a, .categories a {
+    background: linear-gradient(135deg, var(--accent-dim) 0%, #0d419d 100%) !important;
+    color: white !important;
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-size: 0.85em;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    box-shadow: 0 2px 4px rgba(31, 111, 235, 0.3);
+    transition: all 0.3s ease;
+}
+
+.tags a:hover, .categories a:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(88, 166, 255, 0.5);
+    text-shadow: none;
+}
+
+/* Alert boxes estilo Blue Team */
+.alert {
+    padding: 16px;
+    margin: 20px 0;
+    border-radius: 6px;
+    border-left: 4px solid;
+}
+
+.alert-info {
+    background: rgba(31, 111, 235, 0.1);
+    border-left-color: #1f6feb;
+    color: #58a6ff;
+}
+
+.alert-warning {
+    background: rgba(255, 191, 0, 0.1);
+    border-left-color: #ffbf00;
+    color: #ffc83d;
+}
+
+.alert-success {
+    background: rgba(46, 160, 67, 0.1);
+    border-left-color: #2ea043;
+    color: #3fb950;
+}
+
+.alert-danger {
+    background: rgba(248, 81, 73, 0.1);
+    border-left-color: #f85149;
+    color: #ff7b72;
+}
+
+/* Tablas estilo SOC dashboard */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: var(--code-bg);
+}
+
+th {
+    background: var(--background);
+    color: var(--accent);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.85em;
+    letter-spacing: 1px;
+    padding: 12px;
+    border-bottom: 2px solid var(--accent);
+}
+
+td {
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+tr:hover {
+    background: rgba(88, 166, 255, 0.05);
+}
+
+/* Lista de comandos mejorada */
+.command-list {
+    background: #0d1117;
+    padding: 16px;
+    border-radius: 6px;
+    border: 1px solid #30363d;
+}
+
+.command-list li {
+    padding: 8px 0;
+    font-family: 'Courier New', monospace;
+    color: #79c0ff;
+}
+
+.command-list li::before {
+    content: "$ ";
+    color: #4a9eff;
+    font-weight: bold;
+}
+
+/* Blockquote estilo nota importante */
+blockquote {
+    border-left: 4px solid var(--accent);
+    background: rgba(88, 166, 255, 0.05);
+    padding: 16px 20px;
+    margin: 20px 0;
+    font-style: italic;
+    color: #8b949e;
+}
+
+blockquote::before {
+    content: "ℹ️ ";
+    font-style: normal;
+}
+
+/* Selección de texto personalizada */
+::selection {
+    background: rgba(88, 166, 255, 0.3);
+    color: #ffffff;
+}
+
+/* Indicador de código inline más visible */
+p code, li code {
+    background: var(--code-bg);
+    color: var(--accent-hover);
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 0.9em;
+    border: 1px solid var(--border-color);
+}
+
+/* Menu items activos */
+nav a.active, .menu a.active {
+    color: var(--accent) !important;
+    font-weight: bold;
+}
+
+/* Paginación con tema azul */
+.pagination a {
+    color: var(--accent) !important;
+    border-color: var(--accent) !important;
+}
+
+.pagination a:hover {
+    background: rgba(88, 166, 255, 0.15) !important;
+}
+
+.pagination .active {
+    background: var(--accent-dim) !important;
+    color: white !important;
+}

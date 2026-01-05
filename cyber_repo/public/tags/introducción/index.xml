@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introducción on Oscar - Blog</title>
+    <link>http://localhost:1313/tags/introducci%C3%B3n/</link>
+    <description>Recent content in Introducción on Oscar - Blog</description>
+    <generator>Hugo</generator>
+    <language>es-ES</language>
+    <lastBuildDate>Mon, 05 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/introducci%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Home</title>
+      <link>http://localhost:1313/posts/hola-mundo/</link>
+      <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/hola-mundo/</guid>
+      <description>&lt;h2 id=&#34;-bienvenido-a-mi-portfolio&#34;&gt;🛡️ Bienvenido a mi Portfolio&lt;/h2&gt;&#xA;&lt;p&gt;Este es mi portfolio personal donde documentaré mi camino especializándome en &lt;strong&gt;Blue Team&lt;/strong&gt; y operaciones de &lt;strong&gt;SOC&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;h3 id=&#34;por-qué-blue-team&#34;&gt;¿Por qué Blue Team?&lt;/h3&gt;&#xA;&lt;p&gt;La defensa proactiva y la detección de amenazas me fascinan. Me gusta la idea de:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;🔍 &lt;strong&gt;Threat Hunting&lt;/strong&gt;: Buscar amenazas de forma proactiva&lt;/li&gt;&#xA;&lt;li&gt;📊 &lt;strong&gt;Análisis de logs&lt;/strong&gt;: Encontrar patrones y anomalías&lt;/li&gt;&#xA;&lt;li&gt;🚨 &lt;strong&gt;Respuesta a incidentes&lt;/strong&gt;: Actuar rápido ante un ataque&lt;/li&gt;&#xA;&lt;li&gt;🛠️ &lt;strong&gt;Automatización&lt;/strong&gt;: Crear detecciones efectivas&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;qué-encontrarás-aquí&#34;&gt;¿Qué encontrarás aquí?&lt;/h3&gt;&#xA;&lt;p&gt;En este blog compartiré:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

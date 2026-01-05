@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Forensics on Oscar - Blog</title>
+    <link>http://localhost:1313/tags/forensics/</link>
+    <description>Recent content in Forensics on Oscar - Blog</description>
+    <generator>Hugo</generator>
+    <language>es-ES</language>
+    <lastBuildDate>Mon, 05 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/forensics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Análisis de Malware con Volatility</title>
+      <link>http://localhost:1313/labs/volatility-malware-analysis/</link>
+      <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/labs/volatility-malware-analysis/</guid>
+      <description>&lt;h2 id=&#34;-descripción-del-lab&#34;&gt;🔬 Descripción del Lab&lt;/h2&gt;&#xA;&lt;p&gt;Lab práctico de análisis forense de memoria usando &lt;strong&gt;Volatility 3&lt;/strong&gt; para investigar una infección de malware en un sistema Windows.&lt;/p&gt;&#xA;&lt;h2 id=&#34;-objetivos-de-aprendizaje&#34;&gt;🎯 Objetivos de Aprendizaje&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Analizar un volcado de memoria (memory dump)&lt;/li&gt;&#xA;&lt;li&gt;Identificar procesos maliciosos&lt;/li&gt;&#xA;&lt;li&gt;Extraer artefactos del malware&lt;/li&gt;&#xA;&lt;li&gt;Documentar la cadena de infección&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;-configuración-del-entorno&#34;&gt;🏗️ Configuración del Entorno&lt;/h2&gt;&#xA;&lt;h3 id=&#34;requisitos&#34;&gt;Requisitos:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Volatility 3&lt;/li&gt;&#xA;&lt;li&gt;Python 3.8+&lt;/li&gt;&#xA;&lt;li&gt;Memory dump de la máquina infectada (&lt;code&gt;.raw&lt;/code&gt; o &lt;code&gt;.mem&lt;/code&gt;)&lt;/li&gt;&#xA;&lt;li&gt;REMnux (opcional pero recomendado)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;setup&#34;&gt;Setup:&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Instalar Volatility 3&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git clone https://github.com/volatilityfoundation/volatility3.git&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd volatility3&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pip3 install -r requirements.txt&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Verificar instalación&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;python3 vol.py -h&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;-ejercicios&#34;&gt;💡 Ejercicios&lt;/h2&gt;&#xA;&lt;h3 id=&#34;ejercicio-1-identificar-el-sistema-operativo&#34;&gt;Ejercicio 1: Identificar el Sistema Operativo&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;python3 vol.py -f infected.raw windows.info&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Pregunta&lt;/strong&gt;: ¿Qué versión de Windows está ejecutando la víctima?&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

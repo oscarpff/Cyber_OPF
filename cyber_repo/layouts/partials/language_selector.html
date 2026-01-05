@@ -1,0 +1,15 @@
+<!-- Selector de idioma personalizado -->
+<div class="language-selector" style="display: inline-block; margin-left: 20px;">
+    {{ if .IsTranslated }}
+        {{ range .Translations }}
+            <a href="{{ .Permalink }}" style="padding: 5px 10px; margin: 0 5px; border: 2px solid var(--accent); border-radius: 4px; text-decoration: none; font-weight: 600;">
+                {{ if eq .Language.Lang "en" }}🇬🇧 EN{{ end }}
+                {{ if eq .Language.Lang "es" }}🇪🇸 ES{{ end }}
+            </a>
+        {{ end }}
+    {{ end }}
+    <a href="{{ .Permalink }}" style="padding: 5px 10px; margin: 0 5px; background: var(--accent); color: var(--background); border-radius: 4px; text-decoration: none; font-weight: 600;">
+        {{ if eq .Language.Lang "en" }}🇬🇧 EN{{ end }}
+        {{ if eq .Language.Lang "es" }}🇪🇸 ES{{ end }}
+    </a>
+</div>
