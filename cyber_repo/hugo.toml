@@ -1,4 +1,4 @@
-baseURL = 'http://localhost:1313/'
+baseURL = 'https://oscarpff.github.io/Cyber_OPF/'
 defaultContentLanguage = 'es'
 theme = 'terminal'
 
