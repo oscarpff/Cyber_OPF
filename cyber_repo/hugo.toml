@@ -56,7 +56,7 @@ theme = 'terminal'
     
     [[languages.es.menu.main]]
       name = "🐙 GitHub"
-      url = "https://github.com/tu-usuario"
+      url = "https://github.com/oscarpff"
       weight = 6
 
   [languages.en]
