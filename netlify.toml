@@ -1,6 +1,6 @@
 [build]
   base = "cyber_repo"
-  publish = "cyber_repo/public"
+  publish = "public"
   command = "hugo --gc --minify"
 
 [build.environment]
