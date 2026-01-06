@@ -31,26 +31,30 @@ body {
    ========================================== */
 
 .logo-avatar {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    border: 2px solid var(--accent);
-    box-shadow: 0 0 15px rgba(88, 166, 255, 0.4);
-    margin-right: 15px;
-    vertical-align: middle;
-    transition: all 0.3s ease;
-    display: inline-block;
+    width: 55px !important;
+    height: 55px !important;
+    border-radius: 50% !important;
+    border: 2px solid var(--accent) !important;
+    box-shadow: 0 0 20px rgba(88, 166, 255, 0.5) !important;
+    margin-right: 15px !important;
+    vertical-align: middle !important;
+    transition: all 0.3s ease !important;
+    display: inline-block !important;
 }
 
 .logo-avatar:hover {
-    box-shadow: 0 0 25px rgba(88, 166, 255, 0.6);
-    transform: scale(1.1);
+    box-shadow: 0 0 30px rgba(88, 166, 255, 0.7) !important;
+    transform: scale(1.08) !important;
 }
 
 .logo {
+    display: inline-flex !important;
+    align-items: center !important;
+}
+
+.header__logo a {
     display: flex !important;
     align-items: center !important;
-    gap: 10px;
 }
 
 /* ==========================================
