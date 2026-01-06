@@ -40,6 +40,8 @@ body {
     vertical-align: middle !important;
     transition: all 0.3s ease !important;
     display: inline-block !important;
+    position: relative !important;
+    z-index: 2 !important;
 }
 
 .logo-avatar:hover {
@@ -52,9 +54,21 @@ body {
     align-items: center !important;
 }
 
+.header__logo {
+    display: flex !important;
+    align-items: center !important;
+}
+
 .header__logo a {
     display: flex !important;
     align-items: center !important;
+    z-index: 2 !important;
+    position: relative !important;
+}
+
+.header__logo::after {
+    margin-left: 10px !important;
+    align-self: center !important;
 }
 
 /* ==========================================
