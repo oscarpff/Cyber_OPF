@@ -1,26 +1,19 @@
 <header class="header">
   <div class="header__inner">
     <div class="header__logo">
-      <!-- Logo vacío o minimal -->
+      <a href="{{ $.Site.BaseURL }}" style="display: flex; align-items: center; text-decoration: none;">
+        <img src="{{ "images/avatar.png" | absURL }}" alt="Avatar" class="header-avatar-small">
+        <div class="logo">OSCAR_SOC >_</div>
+      </a>
     </div>
+    {{ if len $.Site.Menus }}
+      {{ partial "mobile-menu.html" . }}
+    {{ end }}
+    {{ if and $.Site.Params.showLanguageSelector (len $.Site.Home.AllTranslations) }}
+      {{ partial "language-menu.html" . }}
+    {{ end }}
   </div>
-  
-  <!-- Nuevo contenedor con avatar central y menús -->
-  <div class="header__menu-with-avatar">
-    <div class="header__avatar-section">
-      <img src="{{ "images/avatar.png" | absURL }}" alt="Avatar" class="header-avatar">
-    </div>
-    
-    <div class="header__navigation">
-      {{ if len $.Site.Menus }}
-        {{ partial "menu.html" . }}
-      {{ end }}
-      
-      {{ if and $.Site.Params.showLanguageSelector (len $.Site.Home.AllTranslations) }}
-        <div class="header__language">
-          {{ partial "language-menu.html" . }}
-        </div>
-      {{ end }}
-    </div>
-  </div>
+  {{ if len $.Site.Menus }}
+    {{ partial "menu.html" . }}
+  {{ end }}
 </header>
