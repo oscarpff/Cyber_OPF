@@ -27,6 +27,26 @@ body {
 }
 
 /* ==========================================
+   HOME PAGE - Avatar Styling
+   ========================================== */
+
+.post img[src*="avatar"] {
+    display: block;
+    margin: 2rem auto;
+    max-width: 300px;
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid var(--accent);
+    box-shadow: 0 0 30px rgba(88, 166, 255, 0.3);
+    transition: all 0.3s ease;
+}
+
+.post img[src*="avatar"]:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 50px rgba(88, 166, 255, 0.5);
+}
+
+/* ==========================================
    CONTENEDOR - Centrado y ancho completo
    ========================================== */
 
