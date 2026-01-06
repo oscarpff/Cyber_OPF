@@ -2,8 +2,6 @@
 title: "OSCAR_SOC"
 ---
 
-![Avatar](/images/avatar.png)
-
 ## Welcome to my Cybersecurity Lab
 
 SOC Analyst especializado en Blue Team Operations, Threat Hunting y Digital Forensics.
